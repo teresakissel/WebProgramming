@@ -1,73 +1,57 @@
-<!DOCTYPE html>
+<DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>Coffee Order Form</title>
   </head>
-  <body></body>
-    <form action=”https://www.w3schools.com/action_page.php”method=”get”</form>
+  <body>
+    <form action="https://www.w3schools.com/action_page.php" method="get"
       <p>
-      <label for=”name”>Name:<label>
-      <input type=”text” id=”name” name =”order_name” value=”name"</input>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="order_name" value="name"></input>
       </p>
       <p>
-        <label for=”mail”>Email:</label>
-        <input type=”email” id=”mail” name=”order_email”</input>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="order_email" value="order_email"
       </p>
       <p>
-        <label> for="selection"
-          <span>Coffee Type:</span>
+        <label for="selection"
+          <span>Coffee Type</span>
         </label>
         <select id="selection" name="selection">
           <option value="latte">Latte</option>
-          <option value="cappuccino">Cappuccino</option>
+          <option value="cappuccino">Cappucinno</option>
           <option value="americano">Americano</option>
           <option value="espresso">Espresso</option>
       </p>
-        <fieldset>
-          <legend>Size:</legend>
-          <ul>
-            <li>
-              <label 
-              <input type="radio" id="small" name="size" value="small"/> Small
-              </label>
-            </li>
-            <li>
-              <label 
-              <input type="radio" id="medium" name="size" value="medium"/> Medium
-              </label>
-            </li>
-            <li>
-              <label 
-              <input type="radio" id="large" name="size" value="large"/> Large
-              </label>
-            </li>
-          </ul>
-        </fieldset>
       <fieldset>
-      <legend>Choose all the extras you would like</legend>
-      <ul>
-        <li>
-          <label 
-          <input type="checkbox" id="whipped _cream" name="extra" value="whipped_cream"/> Whipped Cream
-          </label>
-        </li>
-        <li>
-          <label
-          <input type="checkbox" id="extra_shot" name="extra" value="extra_shot"/> Extra Shot
-          </label>
-        </li>
-        <li>
-          <label 
-            <input type="checkbox" id="almond_milk" name="extra" value="almond_milk"/> Almomd Milk
-          </label>
-        </li>
-      </ul>
-    </fieldset>
-    
-    <p>
-      <label for="special_instructions">Special Instructions</label>
-      <textarea id="special_instructions" name="special_instructions"></textarea>
-    </p>
-    <button type="submit">Place Order</button>
-  </form> 
+        <legend>Size:</legend>
+        <ul>
+          <li>
+            <label for="size">Size:</label>
+            <input type="radio" id="small" name="size" value="small"/>Small
+            <input type="radio" id="medium" name="size" value="medium"/>Medium
+            <input type="radio" id="large" name="size" value="large"/>Large
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Choose all the extras you would like</legend>
+        <ul>
+          <li>
+            <label for="extras">Extras</label>
+            <input type="checkbox" id"whipped_cream" name="extras" value="whipped_cream"/>Whipped Cream
+            <input type="checkbox" id"extra_shot" name="extras" value="extra_shot"/>Extra Shot
+            <input type="checkbox" id"almond_milk" name="extras" value="almond_milk"/>Almond Milk
+          </li>
+        </ul>
+      </fieldset>
+      <p>
+        <label for="special_instructions">Special Instructions</label>
+        <textarea id="special_instructions" name="special_instructions"></textarea>
+      </p>
+      <p>
+        <button type="submit">Place Order</button>
+      </p>
+    </form>
+  </body>
