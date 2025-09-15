@@ -15,7 +15,7 @@
         <input type=”email” id=”mail” name=”order_email”</input>
       </p>
       <p>
-        <label> for="coffee"
+        <label> for="selection"
           <span>Coffee Type:</span>
         </label>
         <select id="coffee" name="selection">
@@ -24,21 +24,24 @@
           <option value="americano">Americano</option>
           <option value="espresso">Espresso</option>
        </p>
-      <section>
+       <section>
         <fieldset>
           <legend>Size:</legend>
           <ul>
             <li>
-              <label for="small">Small</label>
-              <input type="radio" id="small" name="size" value="small"/>
+              <label 
+              <input type="radio" id="small" name="size" value="small"/> Small
+              </label>
             </li>
             <li>
-              <label for="medium">Medium</label>
-              <input type="radio" id="medium" name="size" value="medium"/>
+              <label 
+              <input type="radio" id="medium" name="size" value="medium"/> Medium
+              </label>
             </li>
             <li>
-              <label for="large">Large</label>
-              <input type="radio" id="large" name="size" value="large"/>
+              <label 
+              <input type="radio" id="large" name="size" value="large"/> Large
+              </label>
             </li>
           </ul>
         </fieldset>
@@ -47,31 +50,21 @@
       <legend>Choose all the extras you would like</legend>
       <ul>
         <li>
-          <label for="whipped cream">Whipped Cream</label>
-          <input
-            type="checkbox"
-            id="whipped cream"
-            name="extra"
-            value="whipped cream"
-            />
+          <label 
+          <input type="checkbox" id="whipped _cream" name="extra" value="whipped_cream"/> Whipped Cream
+          </label>
         </li>
         <li>
-          <label for="extra shot">Extra Shot</label>
-          <input
-            type="checkbox"
-            id="extra shot"
-            name="extra"
-            value="extra shot"
-            />
+          <label
+          <input type="checkbox" id="extra_shot" name="extra" value="extra_shot"/> Extra Shot
+          </label>
         </li>
         <li>
-          <label for="almond milk">Almond Milk</label>
-          <input
-            type="checkbox"
-            id="almond milk"
-            name="extra"
-            value="almond milk"
-            />
+          <label 
+            <input type="checkbox" id="almond_milk" name="extra" value="almond_milk"/> Almomd Milk
+          </label>
         </li>
       </ul>
     </fieldset>
+    <button type="submit">Place Order</button>
+  </form> 
