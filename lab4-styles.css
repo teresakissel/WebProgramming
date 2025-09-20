@@ -1,1 +1,18 @@
-
+* {
+  color: lightblue;
+  font-family: sans-serif;
+}
+h1 {
+  color: purple;
+  text-align: center;
+}
+p {
+  color: green;
+  padding: 10px;
+}
+ul {
+  color: pink;
+}
+ul span {
+  color: goldenrod;
+}
