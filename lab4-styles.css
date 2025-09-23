@@ -1,4 +1,4 @@
-* {
+body {
   color: lightblue;
   font-family: sans-serif;
 }
@@ -10,9 +10,21 @@ p {
   color: green;
   padding: 10px;
 }
-ul {
+li {
   color: pink;
 }
-ul span {
-  color: goldenrod;
+li::marker {
+  color: red;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+}
+.styled-box {
+  border: solid green;
+  background-color: lightgray;
+  padding: 15px;
+  text-align: center;
 }
